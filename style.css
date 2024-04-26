@@ -1,0 +1,287 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.contpresentacion{
+   display: flex;
+   justify-content: space-between;
+}
+.sectionnav{
+    display: flex;
+    justify-content: end;
+}
+.navbar{
+    background:#d59bf6 ;
+    width: 60vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.enlace{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.enlace:hover{
+    box-shadow: #fff  3px 3px;
+    padding: 7px;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.presentacion{
+    width: 65%;
+    height:  auto;
+    margin: 10px 0 0 20px;
+    position: relative;
+}
+.titprincipal{
+   position: absolute;
+   letter-spacing: .05em;
+   padding: 210px 30px 50px ;
+   font-size:80px;
+}
+.textprin{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    text-shadow: #edb1f1 3px 3px;
+
+}
+img{
+    width: 950px;
+    height: 540px;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.aside{
+    margin: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2.sublist{
+    font-size: 30px;
+    color: #9896f1;
+   
+}
+ol{
+    list-style:  none;
+    
+}
+li{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #757575;
+}
+
+/*pagina de asics**/
+.bodasics{
+    background: #fff;
+}
+.navbar.navasics{
+    background: #068ded;
+}
+.enlace.enasics{
+    color: #fff;
+}
+.enasics:hover{
+    box-shadow: #fff  3px 3px ;
+}
+.card{
+    margin: 10px 0 0 20px;
+    position: relative;
+    border-radius: 20px;
+    width: 950px;
+    height: 550px;
+    background: url("./img/tenisasic.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.5) ;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.contentcard{
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    height: 80px;
+    overflow: hidden;
+    background: #fff;
+    left: 10%;
+    text-align: center;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.card:hover .contentcard{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-radius: 20px;
+}
+h3.subasic{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 25px;
+    color: #068ded;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    width: 80%;
+    margin: 10px auto;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #8f8d8d;
+    letter-spacing: .5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+a.enlaceinfo{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background: #068ded;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.secpresent{
+    display: flex;
+}
+/*PRueba d tabla chat gpt**/
+.table-container {
+    margin: 25px 10px;
+    max-width: 500px;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .tableasic {
+    background-color: #068ded;
+    color: #fff;
+  }
+  
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  tbody tr {
+    animation: slideInFromLeft 0.5s ease;
+  }
+  /*pagina wilson**/
+  body.bodywil{
+    background: #fff;
+  }
+  .card.cardwilson{
+    background: url("./img/raqueta.jpg") center no-repeat;
+  }
+  .navbar.navwil{
+    background: #e82d2d;
+  }
+  .enlawilson{
+    color: #fff;
+  }
+  .enlawilson:hover{
+    box-shadow: #ffffff  3px 3px ;
+  }
+  .tableasic.tablewil{
+    color: #fff;
+    background: #e82d2d;
+  }
+  .subasic.subwil{
+    color: #e82d2d;
+  }
+  .enlaceinfo.enlaceinfowil{
+    background:#e82d2d;
+  }
+  /*pagina puma**/
+  .subasic.subpuma{
+    color: #f7e467;
+  }
+  body.bodpuma{
+    background: #fff;
+  }
+  .navbar.navpuma{
+    background: #f7e467;
+  }
+  .tableasic.tablepuma{
+    background: #f7e467;
+  }
+  .enlace.enlacepuma{
+    color: #fff;
+  }
+  .enlacepuma:hover{
+    box-shadow: #fff  3px 3px ;
+  }
+  .card.cardpuma{
+    background: url("./img/tenisp2.jpg") center;
+  }
+  .enlaceinfo.enlaceinfopuma{
+    background: #f7e467;
+  }
+  .titwilson{
+    margin: 20px 0 0 0;
+    font-weight: 500;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e82d2d;
+    font-size: 70px;
+    text-align: center;
+  }
+  .titwilson.titpuma{
+    color: #f7e467;
+  }
+  .titwilson.titasics{
+    color: #068ded;
+  }
